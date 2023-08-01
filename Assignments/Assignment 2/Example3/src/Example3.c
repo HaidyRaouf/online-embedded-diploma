@@ -22,11 +22,11 @@ int main(void) {
 	{
 		if (a>c)
 		{
-			printf("Largest number = %f" , a);
+			printf("Largest number = %.2f" , a);
 		}
 		else
 		{
-			printf("Largest number = %f" , c);
+			printf("Largest number = %.2f" , c);
 
 		}
 	}
@@ -34,12 +34,12 @@ int main(void) {
 	{
 		if (b>c)
 		{
-			printf("Largest number = %f" , b);
+			printf("Largest number = %.2f" , b);
 
 		}
 		else
 		{
-			printf("Largest number = %f" , c);
+			printf("Largest number = %.2f" , c);
 
 		}
 	}
