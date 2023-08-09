@@ -16,15 +16,15 @@ int main(void) {
 	char s[100];
 	char r[100];
 	int l, i, j=0;
-		printf("enter the string: \n");
-				fflush(stdout);
-				gets(s);
-				l=strlen(s);
-				for (i=l-1; i>=0; i--)
-				{
-					r[j]=s[i];
-					j++;
-				}
-				printf("reverse string is : %s" , r);
+	printf("enter the string: \n");
+	fflush(stdout);
+	gets(s);
+	l=strlen(s);
+	for (i=l-1; i>=0; i--)
+	{
+		r[j]=s[i];
+		j++;
+	}
+	printf("reverse string is : %s" , r);
 
 }
